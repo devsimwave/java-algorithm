@@ -1,3 +1,5 @@
+package src.programmers.level0;
+
 import java.util.Scanner;
 
 public class 두수의차 {
