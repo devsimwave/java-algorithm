@@ -15,6 +15,8 @@ public class 두수의차 {
 
         System.out.println(answer);
 
+        sc.close();
+
     }
 
     public static int solution(int num1, int num2) {

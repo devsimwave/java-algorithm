@@ -34,6 +34,8 @@ public class 두_수의_합 {
 
         System.out.println(result.solution(num1, num2));
 
+        sc.close();
+
         
     }
 

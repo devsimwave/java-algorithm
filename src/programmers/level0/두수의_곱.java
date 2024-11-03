@@ -33,6 +33,7 @@ public class 두수의_곱 {
         두수의_곱 result = new 두수의_곱();
 
         System.out.println(result.solution(num1, num2));
+        sc.close();
         
      }
 
@@ -42,7 +43,7 @@ public class 두수의_곱 {
         if((num1 >= 0 && num1 <= 100) && (num2 >= 0 && num2 <= 100)) {
             return answer = num1 * num2;
         } else {
-            return 0;
+            return answer;
         }
 
     }
