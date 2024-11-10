@@ -1,6 +1,7 @@
 package programmers.level0;
 
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 /*
  * 정수 n이 주어질 때, n이하의 짝수를 모두 더한 값을 return 하도록 solution 함수를 작성해주세요.
@@ -45,4 +46,29 @@ public class 짝수의_합 {
 
         return answer;
     }
+
+
+    /**
+     * 다른 풀이 
+     */
+    //  public int solution(int n1) {
+    //     return IntStream.rangeClosed(0, n)
+    //         .filter(e -> e % 2 == 0)
+    //         .sum();
+    // }
+
+    // public int solution(int n) {
+        
+    //     int answer = 0;
+
+
+    //     for(int i = 2; i <= n; i += 2) {
+    //         answer += i;
+    //     }
+
+    //     return answer;
+
+    // }
+
+
 }
