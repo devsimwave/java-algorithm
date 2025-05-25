@@ -1,4 +1,4 @@
-package programmers.level1.약수의_합;
+package programmers.level0.약수의_합;
 
 import java.util.Scanner;
 
