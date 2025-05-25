@@ -1,5 +1,5 @@
-package programmers.level0;
-public class PCCE_기출문제_1번 {
+package programmers.level0.PCEC_기출문제;
+public class Solution {
     public static void main(String[] args) throws Exception {
         String msg = "Spring is beginning";
         int val1 = 3;

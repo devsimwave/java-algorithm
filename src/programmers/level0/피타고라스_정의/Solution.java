@@ -1,8 +1,8 @@
-package programmers.level0;
+package programmers.level0.피타고라스_정의;
 
 import java.util.Scanner;
 
-public class 피타고라스_정의 {
+public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

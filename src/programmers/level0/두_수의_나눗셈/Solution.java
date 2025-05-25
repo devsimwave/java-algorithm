@@ -1,4 +1,4 @@
-package programmers.level0;
+package programmers.level0.두_수의_나눗셈;
 import java.util.Scanner;
 
 /**
@@ -26,7 +26,7 @@ import java.util.Scanner;
     num1이 1, num2가 16이므로 1 / 16 = 0.0625에 1,000을 곱하면 62.5가 되며, 정수 부분은 62입니다.
  */
 
-public class 두_수의_나눗셈 {
+public class Solution {
 
     public static void main(String[] args) {
 
@@ -36,7 +36,7 @@ public class 두_수의_나눗셈 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        두_수의_나눗셈 result = new 두_수의_나눗셈();
+        Solution result = new Solution();
 
         System.out.println(result.solution(num1, num2));
         

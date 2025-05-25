@@ -1,4 +1,4 @@
-package programmers.level0;
+package programmers.level0.두_수의_합;
 import java.util.Scanner;
 
 
@@ -21,7 +21,7 @@ import java.util.Scanner;
 
     num1이 100이고 num2가 2이므로 100 + 2 = 102를 return합니다.
  */
-public class 두_수의_합 {
+public class Solution {
 
     public static void main(String[] args) {
         
@@ -30,7 +30,7 @@ public class 두_수의_합 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        두_수의_합 result = new 두_수의_합();
+        Solution result = new Solution();
 
         System.out.println(result.solution(num1, num2));
 

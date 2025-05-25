@@ -1,4 +1,4 @@
-package programmers.level0;
+package programmers.level0.짝수의_합;
 
 import java.util.Scanner;
 import java.util.stream.IntStream;
@@ -21,7 +21,7 @@ import java.util.stream.IntStream;
 
     n이 4이므로 2 + 4 = 6을 return 합니다.
  */
-public class 짝수의_합 {
+public class Solution {
     
     public static void main(String[] args) {
         
@@ -29,7 +29,7 @@ public class 짝수의_합 {
 
         int num1 = sc.nextInt();
 
-        짝수의_합 result = new 짝수의_합();
+        Solution result = new Solution();
 
         System.out.println(result.solution(num1));
 

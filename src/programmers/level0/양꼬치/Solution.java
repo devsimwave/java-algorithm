@@ -1,4 +1,4 @@
-package programmers.level0;
+package programmers.level0.양꼬치;
 
 /**
 문제 설명
@@ -20,9 +20,9 @@ n	k	result
 
 64인분을 시켜 서비스로 음료수를 6개 받아 총 64 * 12000 + 6 * 2000 - 6 * 2000 =768,000원입니다.
  */
-public class 양꼬치 {
+public class Solution {
     public static void main(String[] args) {
-        양꼬치 solution = new 양꼬치();
+        Solution solution = new Solution();
         System.out.println(solution.solution(64, 3));
 
 

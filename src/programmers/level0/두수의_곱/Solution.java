@@ -1,8 +1,8 @@
-package programmers.level0;
+package programmers.level0.두수의_곱;
 
 import java.util.Scanner;
 
-public class 두수의_곱 {
+public class Solution {
 
     /**
      * 정수 num1, num2가 매개변수 주어집니다. num1과 num2를 곱한 값을 return 하도록 solution 함수를 완성해주세요.
@@ -30,7 +30,7 @@ public class 두수의_곱 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        두수의_곱 result = new 두수의_곱();
+        Solution result = new Solution();
 
         System.out.println(result.solution(num1, num2));
         sc.close();

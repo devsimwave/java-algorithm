@@ -1,14 +1,14 @@
-package programmers.level1;
+package programmers.level1.자릿수_더하기;
 
 import java.util.Scanner;
 
-public class 자릿수_더하기 {
+public class Solution {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        자릿수_더하기 solution = new 자릿수_더하기();
+        Solution solution = new Solution();
         
         System.out.println(solution.solution(n));
     }

@@ -1,10 +1,10 @@
-package programmers.level0;
+package programmers.level0.몫구하기;
 
-public class 몫구하기 {
+public class Solution {
 
     public static void main(String[] args) {
         
-        몫구하기 a = new 몫구하기();
+        Solution a = new Solution();
 
         System.out.println(a.solution(0, 0));
         

@@ -1,14 +1,14 @@
-package programmers.level0;
+package programmers.level0.나이_출력;
 import java.time.LocalDateTime;
 
 /**
  * 나이_출력
  */
-public class 나이_출력 {
+public class Solution {
 
     public static void main(String[] args) {
 
-        나이_출력 aa = new 나이_출력();
+        Solution aa = new Solution();
 
         System.out.println(aa.solution(40));
 

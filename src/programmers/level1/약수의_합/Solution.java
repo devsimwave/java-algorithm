@@ -1,14 +1,14 @@
-package programmers.level1;
+package programmers.level1.약수의_합;
 
 import java.util.Scanner;
 
-public class 약수의_합 {
+public class Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        약수의_합 solution = new 약수의_합();
+        Solution solution = new Solution();
 
         System.out.println(solution.solution(n));
     }

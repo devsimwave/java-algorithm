@@ -1,6 +1,6 @@
-package programmers.level0;
+package programmers.level0.숫자_비교하기;
 
-public class 숫자_비교하기 {
+public class Solution {
     
 
     /*
@@ -29,7 +29,7 @@ public class 숫자_비교하기 {
      */
     public static void main(String[] args) {
         
-        int result = 숫자_비교하기.solution(0, 0);
+        int result = Solution.solution(0, 0);
 
         System.out.println(result);
         

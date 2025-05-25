@@ -1,8 +1,8 @@
-package programmers.level0;
+package programmers.level0.나머지_구하기;
 
 import java.util.Scanner;
 
-public class 나머지_구하기 {
+public class Solution {
 
     /**
      * 정수 num1, num2가 매개변수로 주어질 때, num1를 num2로 나눈 나머지를 return 하도록 solution 함수를 완성해주세요.
@@ -30,7 +30,7 @@ public class 나머지_구하기 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        나머지_구하기 result = new 나머지_구하기();
+        Solution result = new Solution();
 
         System.out.println(result.solution(num1, num2));
 
