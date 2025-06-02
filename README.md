@@ -1,18 +1,6 @@
-## Getting Started
+# 📚 Programmers 알고리즘 문제 풀이 (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Java 언어로 Programmers 알고리즘 문제를 풀이한 코드 모음입니다.  
+패키지 구조는 `src/programmers/{문제레벨}/{문제명}`으로 구성되어 있습니다.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
