@@ -6,23 +6,19 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         Solution solution = new Solution();
         solution.solution(n);
         sc.close();
-        
     }
     
 
     public String solution(int num) {
-
         if(num % 2 == 0) {
             return "Even";
         } else {
             return "Odd";
         }
-
     }
 }
