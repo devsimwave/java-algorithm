@@ -2,7 +2,7 @@ package programmers.level1.평균_구하기;
 
 import java.util.Scanner;
 
-// 다른 코드 풀어볼것
+// TODO: 배열문제 Stream으로 풀어볼것
 public class Solution {
 
     public static void main(String[] args) {

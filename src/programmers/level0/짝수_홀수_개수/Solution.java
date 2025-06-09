@@ -1,5 +1,4 @@
-package programmers.level0.배열_뒤집기;
-
+package programmers.level0.짝수_홀수_개수;
 
 // TODO: 배열문제 Stream으로 풀어볼것
 public class Solution {
@@ -8,16 +7,19 @@ public class Solution {
         int[] numbers = {1,2,3,4,5};
         Solution solution = new Solution();
         System.out.println(solution.solution(numbers));
-        
     }
-    
 
     public int[] solution(int[] num_list) {
-        int[] answer = {};
-        answer = new int[num_list.length];
+        int evenNumCount = 0;
+        int oddnumCount = 0;
         for(int i = 0; i < num_list.length; i++) {
-            answer[i] = num_list[num_list.length - i - 1];
+            if(num_list[i] % 2 == 0) {
+                evenNumCount++;
+            } else {
+                oddnumCount++;
+            }     
         }
+        int[] answer = {evenNumCount, oddnumCount};
         return answer;
     }
 }
