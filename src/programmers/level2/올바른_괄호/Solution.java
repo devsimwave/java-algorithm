@@ -16,7 +16,7 @@ public class Solution {
         sc.close();
     }
 
-    // Java Stack
+    // Java Stack LIFO 구조
     boolean solution(String s) {
         if(s.length() % 2 != 0) {
             return false;
@@ -25,13 +25,13 @@ public class Solution {
         for(int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if(c == '(') {
-                stack.push(c);    
+                stack.push(c);          // push Stack에 값 집어넣음
             }
             if(c == ')') {
                 if(stack.size() == 0) {
                     return false;
                 }else {
-                    stack.pop();
+                    stack.pop();        // pop Stack에 가장 마지막 요소의 값 제거
                 }
             }
         }

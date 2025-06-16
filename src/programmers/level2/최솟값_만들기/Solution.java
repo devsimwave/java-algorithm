@@ -14,17 +14,15 @@ public class Solution {
         System.out.println("⏱ 실행 시간: " + (endTime - startTime) + "ms");
     }
 
+    // 접근 방법 : 각 배열의 최댓값과 최소값을 구해서 곱함
     public int solution(int []A, int []B)
     {
         int answer = 0;
-
         Arrays.sort(A);
         Arrays.sort(B);
-
         for(int i = 0; i < A.length; i++) {
             answer += A[i] * B[B.length - 1 - i];
         }
-
         return answer;
     }
 }
