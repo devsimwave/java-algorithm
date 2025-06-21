@@ -29,35 +29,22 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-
-        
         Scanner sc = new Scanner(System.in);
-
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
-
         Solution result = new Solution();
-
         System.out.println(result.solution(num1, num2));
-        
-        
-        
-        
+        sc.close();
     }
 
     public int solution(int num1, int num2) {
         int answer = 0;
-
         if((num1 >= 0 && num1 <= 100) && (num2 >= 0 && num2 <= 100)) {
-
             double division = (double) num1 / num2;
-
             return (int) (division * 1000);
-
         } else {
             return answer;
         }
-
     }
 
 

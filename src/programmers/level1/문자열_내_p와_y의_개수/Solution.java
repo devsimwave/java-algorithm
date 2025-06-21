@@ -10,6 +10,7 @@ public class Solution {
         String s = sc.nextLine();
         Solution solution = new Solution();
         System.out.println(solution.solution(s));
+        sc.close();
     }
 
     boolean solution(String s) {

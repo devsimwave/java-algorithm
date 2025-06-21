@@ -11,6 +11,7 @@ public class Solution {
         int y = sc.nextInt();
         Solution solution = new Solution();
         System.out.println(solution.solution(x, y));
+        sc.close();
     }
 
     public long[] solution(int x, int n) {
