@@ -16,24 +16,20 @@ public class Solution {
     }
 
     public int[] solution(String s) {
-
         String binary = s;
         int count = 0;
         int zeroCount = 0;
-
         while(binary.length() > 1) {
-
+            // 문자열 길이
             int len = binary.length();
-
+            // 0 제거 갯수
             int zero = (int) binary.chars().filter(i -> i == '0').count();
-
+            // 0 제거 갯수를 더한다
             zeroCount += zero;
-
             count++;
-
+            // 0제거한 문자열을 이진법으로 전환
             binary = Integer.toBinaryString(len - zero);
         }
-
         return new int[] {count, zeroCount};
     }
 }
