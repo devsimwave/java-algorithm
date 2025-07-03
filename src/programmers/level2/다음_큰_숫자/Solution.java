@@ -15,7 +15,7 @@ public class Solution {
         sc.close();
     }
 
-    // Stream API는 직관적이나 객체 생성 반복돼어 GC에 불필요한 메모리 쌓임 
+    // Stream API는 직관적이나 객체 생성 반복돼어 GC에 불필요한 메모리 쌓임 이 코드로 하면 오답 나옴
     // Integer.toBinaryString(n).chars().filter(i -> i == '1').count(); 이 코드가 결국 Boxing unBoxing이 반복됨
     // 따라서 간단한 연산 처리는 Stream은 비효율적일 수 있음
     // public int solution(int n) {
