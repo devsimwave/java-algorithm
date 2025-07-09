@@ -17,21 +17,22 @@ public class Solution {
         sc.close();
     }
 
+    /*
+        1.	전체 격자 수를 구함: total = brown + yellow
+        2.	가능한 모든 세로(height)를 3 이상부터 total까지 반복
+        3.	width = total / height 가 나누어 떨어질 때만 체크
+        4.	그때 (width - 2) * (height - 2) == yellow 라면 정답
+        
+    */ 
     public int[] solution(int brown, int yellow) {
-
         int total = brown + yellow;
-
         for(int height = 3; height <= total; height++) {
             if(total % height != 0) continue;
-
             int width = total / height;
-
             if(((width -2) * (height - 2)) == yellow) {
                 return new int[] {width, height};
             } 
         }
         return null;
     }
-
-    
 }
