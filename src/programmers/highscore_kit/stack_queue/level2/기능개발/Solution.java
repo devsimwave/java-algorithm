@@ -31,7 +31,7 @@ public class Solution {
         for(int i = 0; i < progress.length; i++) {
             int remain = 100 - progress[i];
             int days = (int) Math.ceil((double) remain / speed[i]);
-            queue.offer(days); // offer() queue에
+            queue.offer(days); // offer() queue 마지막 요소에 삽입
         }
 
         List<Integer> result = new ArrayList<>();
