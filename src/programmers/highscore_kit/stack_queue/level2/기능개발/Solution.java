@@ -2,7 +2,6 @@ package programmers.highscore_kit.stack_queue.level2.기능개발;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -24,13 +23,13 @@ public class Solution {
     }
 
     // 1. 각 기능별 완료까지 남은 일수를 계산하여 큐에 넣기
-    public int[] solution(int[] progress, int[] speed) {
+    public int[] solution(int[] progresses, int[] speeds) {
 
         Queue<Integer> queue = new LinkedList<>();
 
-        for(int i = 0; i < progress.length; i++) {
-            int remain = 100 - progress[i];
-            int days = (int) Math.ceil((double) remain / speed[i]);
+        for(int i = 0; i < progresses.length; i++) {
+            int remain = 100 - progresses[i];
+            int days = (int) Math.ceil((double) remain / speeds[i]);
             queue.offer(days); // offer() queue 마지막 요소에 삽입
         }
 
