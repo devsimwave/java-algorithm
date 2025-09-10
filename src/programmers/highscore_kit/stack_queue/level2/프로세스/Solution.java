@@ -32,7 +32,7 @@ public class Solution {
                 if(queue.peek() == priorities[i]) { // queue와 우선순위와 똑같다면 queue제거 후 순서 정해주는 값 1씩 count
                     queue.poll();
                     answer++;
-                    if(location == i) { // 프로세스 위치를 알려주는 loction과 
+                    if(location == i) { // 내가 찾던 프로세스와 동일하다면
                         return answer;
                     }
                 }
