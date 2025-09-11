@@ -7,9 +7,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        // int[] priorities1 = {2, 1, 3, 2};
-        // int location = 2;
-        // System.out.println(solution.solution(priorities1, location));
+        int[] priorities1 = {2, 1, 3, 2};
+        int location = 2;
+        System.out.println(solution.solution(priorities1, location));
         int[] priorities2 = {1, 1, 9, 1, 1, 1};
         int location2 = 0;
         System.out.println(solution.solution(priorities2, location2));
