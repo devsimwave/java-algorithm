@@ -12,6 +12,11 @@ public class Solution {
         
     }
     
+    /**
+     * 반복문으로 배열 파라미터를 stack에 담는다.
+     * stack에서 앞 뒤 비교해 중복값을 제거
+     * 제거한 stack을 배열에 역순 (stack은 FIFO구조) 담은 뒤 return한다.
+     */
     public int[] solution(int[] arr) {
         Stack<Integer> stack = new Stack<>();
         
