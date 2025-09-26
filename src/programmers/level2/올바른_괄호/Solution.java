@@ -16,7 +16,7 @@ public class Solution {
         sc.close();
     }
 
-    // Java Stack LIFO 구조
+    // Java Stack LIFO 구조 Stack이 ) 일 떄 stack 제거 후 다 제거됐는지 확인
     boolean solution(String s) {
         if(s.length() % 2 != 0) {
             return false;
